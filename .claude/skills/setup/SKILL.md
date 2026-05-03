@@ -26,6 +26,8 @@ Ask one at a time. Write each answer into `intake.md` as you go.
 **Q1 — Who are you and what do you run?**
 Name, role, businesses or projects, ICP. One paragraph each.
 
+If they run more than one project or business, ask as a follow-up: *"Which one needs the most attention right now — or are you splitting focus?"* Note the answer as `primary_focus`. This shapes every `/build` session and the priorities scaffold.
+
 **Q2 — Paste 1-2 things you've written recently. Don't edit them.**
 Voice samples MUST be pasted, not typed mid-conversation. If the user starts typing fresh prose, stop them:
 
@@ -53,11 +55,12 @@ Top pain point + task system. Map to Domain 5.
 Once intake is complete, generate these files in one batch. Back up originals to `archives/setup-{YYYY-MM-DD-HHMM}/` if re-running.
 
 1. **`context/about-me.md`** — from Q1 (identity, role) + Q7 (top pain). One short paragraph each.
-2. **`context/about-business.md`** — from Q1 (offer, ICP) + Q4 (revenue). One paragraph.
-3. **`context/priorities.md`** — from Q3. Numbered list, one line per priority.
+2. **`context/about-business.md`** — from Q1 (offer, ICP) + Q4 (revenue). One paragraph. If multiple businesses: one paragraph per business, with a "Current focus" line at the top naming the `primary_focus` from Q1.
+3. **`context/projects.md`** — only if the user runs 2+ projects. List each project with: name, one-line description, status (active / building / paused), and current priority level (primary / secondary). This is the map `/build` uses to stay on-target.
+4. **`context/priorities.md`** — from Q3. Numbered list, one line per priority.
 4. **`references/voice.md`** — from Q2. Paste samples verbatim with a short header on how to use them.
 5. **`connections.md`** — populate the 7-row table from Q4-Q7 answers. Each row: `mechanism: not yet connected`, `auth: —`, `last checked: —`.
-6. **`CLAUDE.md` and `AGENTS.md`** — fill all `{{...}}` placeholders with the user's name, priority, voice summary, and connections summary. Write identical content to both files.
+6. **`CLAUDE.md` and `AGENTS.md`** — fill all `{{...}}` placeholders with the user's name, priority, voice summary, and connections summary. Write identical content to both files. If multi-project: add a "Projects" section listing all businesses with their focus level.
 
 ### Step 4: Closing
 

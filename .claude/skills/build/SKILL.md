@@ -15,6 +15,8 @@ Run on Day 14, then weekly. After `/review` shows you what's structurally missin
 
 ### Phase 1: Find the candidate
 
+If `context/projects.md` exists (multi-project operator), ask first: *"Which project are we focused on this session?"* Read the answer before proceeding — every question in Phase 1-3 should be scoped to that project only.
+
 Ask: "What's the most repetitive thing you did this week that you wish you hadn't?"
 
 If they can't name one, prompt with their Q7 pain point from `context/about-me.md`.
